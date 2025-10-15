@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EduVerse AI - Teacher Assistant & MCQ Portal</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-section">
+                <div class="logo-icon">🎓</div>
+                <div class="logo-text">EduVerse AI</div>
+            </div>
+
+            <select class="language-select">
+                <option>English</option>
+                <option>Hindi</option>
+                <option>Spanish</option>
+                <option>French</option>
+            </select>
+
+            <div class="login-section">
+                <label>Or enter your name</label>
+                <input type="text" class="login-input" placeholder="Your name">
+                <button class="login-btn">Login</button>
+            </div>
+
+            <div class="navigation">
+                <div class="nav-title">Navigate</div>
+                <div class="nav-item active">
+                    <div class="nav-icon">🏠</div>
+                    <span>Home</span>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">📋</div>
+                    <span>Lecture Plan</span>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">📝</div>
+                    <span>Notes</span>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">❓</div>
+                    <span>MCQs (AI)</span>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">🧠</div>
+                    <span>Mind Map</span>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">📊</div>
+                    <span>MCQ Assignments</span>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">⏰</div>
+                    <span>Timetable</span>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">ℹ️</div>
+                    <span>About</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="header">
+                <div class="header-title">
+                    <div class="header-icon">🎯</div>
+                    <h1>EduVerse AI — Teacher Assistant & MCQ Portal</h1>
+                </div>
+                <p><strong>AI tool that helps teachers:</strong> generate lecture plans (timeline), notes, MCQs (via Gemini) — and you can listen to them with human-like voice.</p>
+                <p>Also includes a Firestore-backed MCQ Assignment system for teachers to create shareable quizzes and students to take them.</p>
+            </div>
+
+            <section class="features-section">
+                <h2 class="section-title">✨ Key Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🤖</div>
+                        <h3>AI Lecture Plans</h3>
+                        <p>Automatically generate comprehensive lecture plans with timeline organization using AI technology.</p>
+                        <span class="feature-badge">Powered by Gemini</span>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📚</div>
+                        <h3>Smart Notes</h3>
+                        <p>Create and organize detailed notes with AI assistance. Perfect for teachers and students.</p>
+                        <span class="feature-badge">AI Enhanced</span>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">❓</div>
+                        <h3>AI-Generated MCQs</h3>
+                        <p>Generate multiple choice questions automatically from your content using advanced AI.</p>
+                        <span class="feature-badge">Smart Generation</span>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔊</div>
+                        <h3>Text-to-Speech</h3>
+                        <p>Listen to content with natural-sounding human-like voice. Perfect for on-the-go learning.</p>
+                        <span class="feature-badge">Premium Voice</span>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🧠</div>
+                        <h3>Mind Maps</h3>
+                        <p>Visualize concepts with intelligent mind maps. Great for understanding relationships.</p>
+                        <span class="feature-badge">Visual Learning</span>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>MCQ Assignments</h3>
+                        <p>Create and share interactive quizzes with students using Firestore backend. Real-time tracking.</p>
+                        <span class="feature-badge">Cloud Powered</span>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⏰</div>
+                        <h3>Smart Timetable</h3>
+                        <p>Manage your teaching schedule efficiently with an intelligent timetable system.</p>
+                        <span class="feature-badge">Organization Tool</span>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔐</div>
+                        <h3>Secure Cloud Storage</h3>
+                        <p>All your data backed by Firestore with enterprise-grade security and reliability.</p>
+                        <span class="feature-badge">Cloud Backup</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features-section">
+                <h2 class="section-title">📈 Platform Stats</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">10K+</div>
+                        <div class="stat-label">Teachers Using</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">50K+</div>
+                        <div class="stat-label">Quiz Questions</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100K+</div>
+                        <div class="stat-label">Students Engaged</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">User Satisfaction</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
